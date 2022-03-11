@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background-image: linear-gradient(to right, #672280, #A626D3);
+}
+
+.trollface-img {
+    width: 100px;
+    margin: 0 10px 0 20px;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.course {
+    margin-right: 20px;
+}
+
+.forms {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    gap: 20px;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    font-family: 'Karla', sans-serif;
+    text-indent: 10px;
+}
+
+button {
+    height: 40px;
+    width: 420px;
+    border: 0;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #672280, #A626D3);
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.meme-div {
+    margin-top: 5%;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meme-img {
+    width: 50%;
+}
+
+.top-text, .bottom-text {
+    position: absolute;
+    color: white;
+    font-family: impact, sans-serif;
+    font-size: clamp(16px, 5vw, 32px);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top-text {
+    top: 0;
+}
+
+.bottom-text {
+    bottom: 0;
+}
