@@ -3,6 +3,6 @@ A meme generator using React, a project from Bob Ziroll's React course. Focus on
 
 # ScreenShots#
 
-[!Meme Generator Img 1](screenshots/meme-generator.png)
+![Meme Generator Img 1](screenshots/meme-generator.png)
 
-[!Meme Generator Img 2](screenshots/meme-generator-2.png)
+![Meme Generator Img 2](screenshots/meme-generator-2.png)
